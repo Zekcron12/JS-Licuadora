@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1B7578">
+    <meta name="description" content="Proyecto practica Licuadora - JavaScript">
+    <meta name="author" content="ZKC">
+    <meta name="copyright" content="Todos los derechos reservados © al canal de Youtube Developeando">
+
+	<title>Licuadora con JavaScript</title>
+
+	<script src="https://kit.fontawesome.com/c3a0547943.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="img/js.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+	<!-- Logica de la licuadora -->
+	<main class="container">
+		<h1 class="title">Licuadora - JS</h1>
+		<div id="blender" class="blender">
+			<div id="blender-button" class="blender-button" onclick="logicaLicuadora()"></div>
+		</div>
+	</main>
+	<!-- Fin - Logica de la licuadora -->
+
+	<!-- Logica de los sonidos -->
+	<audio id="blender-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+	<audio id="blender-licuadora-sound" src="sound/licuadora.mp3" type="audio/mpeg" loop></audio>
+	<!-- Fin - Logica de los sonidos -->
+
+	<script src="js/main.js"></script>
+</body>
+</html>

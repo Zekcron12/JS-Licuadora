@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	/* DATO: 16px = 1rem */
+}
+.title {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #0D9AB1;
+	margin-top: 0.625rem;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 3.12rem;
+}
+.blender {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 43.75rem;
+	height: 25rem;
+	background-image: url(../img/licuadoraApagada.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.blender.active {
+	background-image: url(../img/licuadoraEncendida.gif);
+}
+.blender-button {
+	margin: 18.12rem auto 0px;
+	width: 1.875rem;
+	height: 3.125rem;
+}
